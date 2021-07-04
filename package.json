@@ -1,0 +1,21 @@
+{
+  "name": "typescript-api",
+  "version": "1.0.0",
+  "description": "Typescript Node.Js API",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn build && node dist/src/index.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arthur Marques",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.0",
+    "@types/node": "^16.0.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
